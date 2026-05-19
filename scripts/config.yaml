@@ -1,0 +1,34 @@
+llm:
+  provider: openrouter
+  model_id: xiaomi/mimo-v2.5
+  api_base: https://openrouter.ai/api/v1
+  api_key: "your-openrouter-key-here"
+  api_mode: chat
+proxy:
+  port: 8787
+  host: 0.0.0.0
+  api_key: ""
+  served_model_name: skillclaw-model
+claw_type: openclaw
+configure_openclaw: true
+skills:
+  enabled: true
+  dir: /data/skills
+  retrieval_mode: template
+  top_k: 6
+prm:
+  enabled: false
+sharing:
+  enabled: true
+  backend: local
+  local_root: /data/local-share
+  group_id: openclaw-fleet
+  user_alias: jazzy
+publish_mode: direct
+validation:
+  enabled: false
+  mode: replay
+dashboard:
+  enabled: false
+  host: 127.0.0.1
+  port: 3788
