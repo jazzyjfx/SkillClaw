@@ -1,0 +1,17 @@
+{
+  "sysadmin": ["jazzy"],
+  "devops": ["jazzy"],
+  "crypto": ["dex"],
+  "forex": ["vector"],
+  "mt5": ["vector"],
+  "mql5": ["vector"],
+  "ml": ["nova"],
+  "data-science": ["nova"],
+  "research": ["lumi"],
+  "intelligence": ["lumi"],
+  "compliance": ["axiom"],
+  "project-management": ["atlas"],
+  "fleet": ["dispatch"],
+  "personal": ["jim"],
+  "general": ["atlas", "axiom", "dex", "dispatch", "forge", "jazzy", "jim", "lumi", "nova", "prime", "vector"]
+}
